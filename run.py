@@ -1,8 +1,8 @@
-from tensorflow.python.util import deprecation
-deprecation._PRINT_DEPRECATION_WARNINGS = False
+# from tensorflow.python.util import deprecation
+# deprecation._PRINT_DEPRECATION_WARNINGS = False
 from sklearn.metrics import roc_auc_score, average_precision_score
-import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior()
+# import tensorflow.compat.v1 as tf
+# tf.disable_v2_behavior()
 from argparse import ArgumentParser, Namespace
 from data.collator import *
 from gt_dataset import *
